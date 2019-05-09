@@ -1,39 +1,58 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-.size-1{
-    width: 1024px;
-    height: 768px;
-    background-color: #eeece6;
-}
+
 .color-golden{
     background-color:#fac105;
+    
 }
 
 .nav {
-  display: flex;
-  width: 690px;
-  height: 55px;
-  border-radius: 2px;
+    display: inline-flex;
+    width: 100%;
+    height: 55px;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+  background-color: #eeece6;
+}
 
-  font-family: Roboto;
-  font-size: 24px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.83;
-  letter-spacing: normal;
+.nav-list{
+    display: flex;
+    width:33.59375% ;
+    height: 56px;
+    border-radius: 2px;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.83;
+    letter-spacing: normal; 
 }
 
 .nav-menu {
-    display:flex;
+    display: inline-flex;
     list-style: none;
-    margin-top: 20px;
-
+    font-weight: bold;
+    margin-top: 0;
+    background-color:#fac105;
+    width: 66.40625%;
 
 }
-
+ .nav-menu-list{
+    display: inline-flex;
+    list-style: none;
+    margin-top: 15px;
+    
+ }
+ .menu-list{
+display: inline-flex;
+margin-top: 15px;
+ }
 .nav-menu li {
     display: inline-block;
-   
+    
 }
 
 .column-ticketone{
@@ -52,7 +71,7 @@ margin-right: 15px;
     transition: all 0.3s ease-in-out;
     text-decoration: none;
     margin-left:20px;
-    background-color:#fac105;
+    
 }
 
 
@@ -68,7 +87,7 @@ margin-right: 15px;
     object-fit: contain;
     border-radius: 36px;
     margin-left: -32px;
-    margin-top: -17px;
+    margin-top: -12px;
     background-color:#fac105;
   
 }

@@ -5,25 +5,25 @@ import '../Css/Navbar.css';
 
 
 const Navbar = (props) => (
- <div className="size-1">
- <div className="nav color-golden">
-     <ul className="nav-menu color-golden">
+ <div className="nav">
+ <div className="nav-menu">
+     <ul className="menu-list">
         <img className="log-burger" src={logburger} />
         {/* <li><NavLink className="nav-menu__link" exact to="/">Inicio</NavLink></li> */}
-        <li><NavLink className="nav-menu__link color-golden" to="/Breakfast">Desayuno</NavLink></li>
-        <li><NavLink className="nav-menu__link  color-golden color-golden" exact to="/">Hamburgesas</NavLink></li>
+        <li><NavLink className="nav-menu__link" to="/Breakfast">Desayuno</NavLink></li>
+        <li><NavLink className="nav-menu__link" exact to="/">Hamburgesas</NavLink></li>
         {/* <li><NavLink className="nav-menu__link" to="/Burgers">Hmburgesas</NavLink></li>   */}
-        <li><NavLink className="nav-menu__link color-golden" to="/Drinks">Bebidas</NavLink></li> 
-        <li><NavLink className="nav-menu__link color-golden" to="/Complements">Complementos</NavLink></li>    
+        <li><NavLink className="nav-menu__link" to="/Drinks">Bebidas</NavLink></li> 
+        <li><NavLink className="nav-menu__link" to="/Complements">Complementos</NavLink></li>    
     </ul>
-   
-   <div className="nav">
-       <ul className="nav-menu">
+    </div>
+   <div className="nav-list">
+       <ul className="nav-menu-list">
            <li className="column-ticketone">Cant.</li>
            <li className="column-tickettwo">Producto</li>
            <li>Precio</li>
        </ul>
-   </div>
+   
 
   </div>
   </div>
