@@ -13,10 +13,11 @@
     text-align: center;
 }
 
-.btn-burger{
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left: -31px;
+.btn-Drinks{
+    margin-top: 267px;
+    margin-bottom: 16px;
+    margin-left: 68px;
+    margin-right: -25px;
   font-family: 'Roboto', sans-serif;
   border-radius:15px;
   font-size: 26px;
@@ -29,7 +30,6 @@
   border: solid 2px #707070;
   background-color: #eeece6;
 }
-
 .circle{
     margin-top: 31px;
     width: 46.6px;
@@ -41,9 +41,9 @@
     
     margin:5px;
 }
-.text{
-    width: 69px;
-    height: 87px;
+.textDrinks{
+    width: 155px;
+     height: 82px;
     font-family: 'Roboto', sans-serif;
     font-size: 26px;
     font-weight: bold;
@@ -53,10 +53,13 @@
     letter-spacing: normal;
     text-align: left;
     margin-left: 51px;
-    margin-top: -49px;
+    margin-top: -37px;
 
+    
 }
-.price{
+
+
+.priceDrinks{
     width: 41px;
     height: 32px;
     font-family: 'Roboto', sans-serif;
@@ -68,9 +71,7 @@
     letter-spacing: normal;
     text-align: left;
     margin-left: 180px;
-    margin-top: -34px;
+    margin-top: -48px;
 
-}
-.Burger-menu2bur{
-    margin-left: -86px;
+
 }

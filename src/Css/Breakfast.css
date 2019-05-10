@@ -13,10 +13,9 @@
     text-align: center;
 }
 
-.btn-burger{
+.btn-break{
   margin-top: 16px;
   margin-bottom: 16px;
-  margin-left: -31px;
   font-family: 'Roboto', sans-serif;
   border-radius:15px;
   font-size: 26px;
@@ -29,7 +28,6 @@
   border: solid 2px #707070;
   background-color: #eeece6;
 }
-
 .circle{
     margin-top: 31px;
     width: 46.6px;
@@ -41,9 +39,9 @@
     
     margin:5px;
 }
-.text{
-    width: 69px;
-    height: 87px;
+.textBreak{
+    width: 155px;
+     height: 82px;
     font-family: 'Roboto', sans-serif;
     font-size: 26px;
     font-weight: bold;
@@ -55,7 +53,10 @@
     margin-left: 51px;
     margin-top: -49px;
 
+    
 }
+
+
 .price{
     width: 41px;
     height: 32px;
@@ -71,6 +72,8 @@
     margin-top: -34px;
 
 }
-.Burger-menu2bur{
-    margin-left: -86px;
+.Burger-menubreak{
+    margin-left: -127px;
+
+
 }
