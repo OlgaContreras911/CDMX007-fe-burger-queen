@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+  .one {
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+  
+  .four {
+    grid-column: 2 / 2;
+    grid-row: 1;
+  }
+
+
 .Burger-total{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    grid-auto-rows: minmax(350px, auto);
     width: 66.2%;
     background-color: #eeece6;
     display: inline-flex;

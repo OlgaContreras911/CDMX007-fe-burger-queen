@@ -9,7 +9,7 @@ import btnchesse from "../Assets/btnchesse.png"
 const Burgers = (props) => {
     return (
 <div className="Burger-total">
-    <div className="Burger-menubur">
+    <div className="Burger-menubur one">
     <button className="btn-burger">
       <div className="circle">
       <img className="burgerdoble" src={btnburgersim} /></div>
@@ -35,7 +35,7 @@ const Burgers = (props) => {
       <div className="price">$40</div>
       </button>
     </div>
-    <div className="Burger-menu2bur">
+    <div className="Burger-menu2bur four">
       <button className="btn-burger">
       <div className="circle">
       <img className="burgerdoble" src={btnburger} /></div>
