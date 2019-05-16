@@ -1,39 +1,54 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
-  .one {
-    grid-column: 1 / 2;
-    grid-row: 1;
-  }
-  
-  .four {
-    grid-column: 2 / 2;
-    grid-row: 1;
-  }
-
-
-.Burger-total{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 30px;
-    grid-auto-rows: minmax(350px, auto);
-    width: 66.2%;
-    background-color: #eeece6;
-    display: inline-flex;
-    list-style: none;
-    font-weight: bold;
-    width: 66.3%;
-    border-right-style: solid;
-    border-right-width: 1px;
-    height:703px;
-    text-align: center;
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1;
 }
 
-.btn-burger{
-  margin-top: 16px;
+.four {
+  grid-column: 2 / 2;
+  grid-row: 1;
+}
+
+.Complements {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  grid-auto-rows: minmax(350px, auto);
+  width: 66.2%;
+  background-color: #eeece6;
+  display: inline-flex;
+  list-style: none;
+  font-weight: bold;
+  width: 66.3%;
+  border-right-style: solid;
+  border-right-width: 1px;
+  height: 703px;
+  text-align: center;
+}
+.Burgers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  grid-auto-rows: minmax(350px, auto);
+  width: 66.2%;
+  background-color: #eeece6;
+  display: inline-block;
+  list-style: none;
+  font-weight: bold;
+  width: 66.3%;
+  border-right-style: solid;
+  border-right-width: 1px;
+  height: 703px;
+  text-align: center;
+}
+
+.btn-complements {
+  margin-top: 288px;
   margin-bottom: 16px;
-  margin-left: -31px;
-  font-family: 'Roboto', sans-serif;
-  border-radius:15px;
+  margin-left: 53px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 15px;
   font-size: 26px;
   font-weight: 500;
   font-style: normal;
@@ -45,47 +60,59 @@
   background-color: #eeece6;
 }
 
-.circle{
-    margin-top: 31px;
-    width: 46.6px;
-    height: 46.6px;
-    border-radius: 100px;
-    border: solid 2px #fac105;
-}
-.burgerdoble{
-    
-    margin:5px;
-}
-.text{
-    width: 69px;
-    height: 87px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.92;
-    letter-spacing: normal;
-    text-align: left;
-    margin-left: 51px;
-    margin-top: -49px;
+.btn-burger {
+  margin: 12px;
+  display: inline;
 
-}
-.price{
-    width: 41px;
-    height: 32px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.88;
-    letter-spacing: normal;
-    text-align: left;
-    margin-left: 180px;
-    margin-top: -34px;
+  border-radius: 15px;
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
 
+  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 2px #707070;
+  background-color: #eeece6;
 }
-.Burger-menu2bur{
-    margin-left: -86px;
+
+.circle {
+  margin-top: 31px;
+  width: 46.6px;
+  height: 46.6px;
+  border-radius: 100px;
+  border: solid 2px #fac105;
+}
+.burgerdoble {
+  margin: 5px;
+}
+.text {
+  width: 69px;
+  height: 87px;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.92;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 51px;
+  margin-top: -49px;
+}
+.price {
+  width: 41px;
+  height: 32px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.88;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 180px;
+  margin-top: -34px;
+}
+.Burger-menu2bur {
+  margin-left: -86px;
 }

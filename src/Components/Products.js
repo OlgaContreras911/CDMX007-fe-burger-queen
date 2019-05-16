@@ -25,82 +25,66 @@ class Products extends Component {
       return <div>Loading</div>;
     } else if (window.location.href.includes("Burgers")) {
       return (
-        <div className="App">
-          <ul>
-            {items
-              .filter(items => items.type.includes("burgers"))
-              .map(item => (
-                <li key={item}>
-                  <button className="btn-burger">
-                    <div className="circle">
-                      <img className="burgerdoble" src={item.img} />
-                    </div>
-                    <div className="text">{item.name}</div>
-                    <div className="price">${item.price}</div>
-                  </button>
-                </li>
-              ))}
-          </ul>
+        <div className="Burgers">
+          {items
+            .filter(items => items.type.includes("burgers"))
+            .map(item => (
+              <button className="btn-burger">
+                <div className="circle">
+                  <img className="burgerdoble" src={item.img} />
+                </div>
+                <div className="text">{item.name}</div>
+                <div className="price">${item.price}</div>
+              </button>
+            ))}
         </div>
       );
     } else if (window.location.href.includes("Breakfast")) {
       return (
-        <div className="App">
-          <ul>
-            {items
-              .filter(items => items.type.includes("breakfast"))
-              .map(item => (
-                <li key={item}>
-                  <button className="btn-burger">
-                    <div className="circle">
-                      <img className="burgerdoble" src={item.img} />
-                    </div>
-                    <div className="text">{item.name}</div>
-                    <div className="price">${item.price}</div>
-                  </button>
-                </li>
-              ))}
-          </ul>
+        <div className="Burgers">
+          {items
+            .filter(items => items.type.includes("breakfast"))
+            .map(item => (
+              <button className="btn-burger">
+                <div className="circle">
+                  <img className="burgerdoble" src={item.img} />
+                </div>
+                <div className="text">{item.name}</div>
+                <div className="price">${item.price}</div>
+              </button>
+            ))}
         </div>
       );
     } else if (window.location.href.includes("Drinks")) {
       return (
-        <div className="App">
-          <ul>
-            {items
-              .filter(items => items.type.includes("drinks"))
-              .map(item => (
-                <li key={item}>
-                  <button className="btn-burger">
-                    <div className="circle">
-                      <img className="burgerdoble" src={item.img} />
-                    </div>
-                    <div className="text">{item.name}</div>
-                    <div className="price">${item.price}</div>
-                  </button>
-                </li>
-              ))}
-          </ul>
+        <div className="Complements">
+          {items
+            .filter(items => items.type.includes("drinks"))
+            .map(item => (
+              <button className="btn-complements">
+                <div className="circle">
+                  <img className="burgerdoble" src={item.img} />
+                </div>
+                <div className="text">{item.name}</div>
+                <div className="price">${item.price}</div>
+              </button>
+            ))}
         </div>
       );
     } else if (window.location.href.includes("Complements")) {
       return (
-        <div className="App">
-          <ul>
-            {items
-              .filter(items => items.type.includes("complements"))
-              .map(item => (
-                <li key={item}>
-                  <button className="btn-burger">
-                    <div className="circle">
-                      <img className="burgerdoble" src={item.img} />
-                    </div>
-                    <div className="text">{item.name}</div>
-                    <div className="price">${item.price}</div>
-                  </button>
-                </li>
-              ))}
-          </ul>
+        <div className="Complements">
+          {items
+            .filter(items => items.type.includes("complements"))
+            .map(item => (
+              <button className="btn-complements">
+                <div className="circle">
+                  <img className="burgerdoble" src={item.img} />
+                </div>
+                <div className="text">{item.name}</div>
+                <div className="price">${item.price}</div>
+              </button>
+            ))}
         </div>
       );
     }
