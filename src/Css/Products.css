@@ -9,6 +9,64 @@
   grid-column: 2 / 2;
   grid-row: 1;
 }
+.Ticket {
+  width: 33.8%;
+  height: 703px;
+}
+
+.total {
+  margin-top: 90px;
+  margin-left: -277px;
+}
+
+.order-list {
+  margin-left: -280px;
+
+  list-style: none;
+}
+.product-list {
+  margin-top: 65px;
+  height: 21px;
+}
+
+.btn-order {
+  width: 316px;
+  height: 61px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 2px #707070;
+  background-color: #eeece6;
+  margin-left: -42px;
+  margin-top: 3px;
+}
+.text-order {
+  margin-left: 75px;
+  width: 171px;
+  height: 41px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  margin-top: 9px;
+}
+.price-order {
+  width: 40px;
+  height: 32px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 246px;
+  margin-top: -42px;
+}
 
 .Complements {
   display: grid;
