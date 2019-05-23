@@ -27,7 +27,7 @@ class Products extends Component {
           {items
             .filter(items => items.type.includes("breakfast"))
             .map(item => (
-              <button className="btn-burger">
+              <button className="btn-burger" onClick={() => btnOrder(item)}>
                 <div className="circle">
                   <img className="burgerdoble" src={item.img} />
                 </div>
@@ -43,7 +43,10 @@ class Products extends Component {
           {items
             .filter(items => items.type.includes("drinks"))
             .map(item => (
-              <button className="btn-complements">
+              <button
+                className="btn-complements"
+                onClick={() => btnOrder(item)}
+              >
                 <div className="circle">
                   <img className="burgerdoble" src={item.img} />
                 </div>
@@ -59,7 +62,10 @@ class Products extends Component {
           {items
             .filter(items => items.type.includes("complements"))
             .map(item => (
-              <button className="btn-complements">
+              <button
+                className="btn-complements"
+                onClick={() => btnOrder(item)}
+              >
                 <div className="circle">
                   <img className="burgerdoble" src={item.img} />
                 </div>
