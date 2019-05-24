@@ -8,10 +8,12 @@ export class AppContextProvider extends React.Component {
       items: [],
       comand: [],
       uniqueItems: [],
+      cancel: [],
       isLoaded: false
     };
     this.btnOrder = this.btnOrder.bind(this);
     this.btnDelete = this.btnDelete.bind(this);
+    this.btnDeleteAll = this.btnDeleteAll.bind(this);
   }
   componentDidMount() {
     fetch("https://burger-queen-70c13.firebaseio.com/products.json")
@@ -52,6 +54,19 @@ export class AppContextProvider extends React.Component {
       comand: [...uniqueItems]
     });
   }
+  btnDeleteAll() {
+    let deleteItems = [];
+    this.state.comand.map(items => {
+      if (items.quantity > 1) {
+        items.quantity = 1;
+        items.total = items.price;
+      }
+      return this.state.comand;
+    });
+    this.setState({
+      comand: deleteItems
+    });
+  }
 
   render() {
     const { comand } = this.state;
@@ -61,6 +76,7 @@ export class AppContextProvider extends React.Component {
           items: this.state.items,
           btnOrder: this.btnOrder,
           btnDelete: this.btnDelete,
+          btnDeleteAll: this.btnDeleteAll,
           comand
         }}
       >

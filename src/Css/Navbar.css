@@ -17,15 +17,10 @@ body {
 }
 
 .nav-list {
-  border-left-style: solid;
-  border-right-style: solid;
-  border-top-style: solid;
-  border-left-width: 1px;
-  border-right-width: 1px;
-  border-top-width: 1px;
-  display: flex;
+  border: solid;
+  border-width: 1px;
   width: 33.59375%;
-  height: 56px;
+  height: 760px;
   border-radius: 2px;
   font-weight: bold;
   font-style: normal;
