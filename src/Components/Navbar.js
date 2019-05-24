@@ -37,7 +37,8 @@ const Navbar = props => (
       <ul className="nav-menu-list">
         <li className="column-ticketone">Cant.</li>
         <li className="column-tickettwo">Producto</li>
-        <li>Precio</li>
+        <li className="column-ticketthree">Precio</li>
+        <li>Borrar</li>
       </ul>
       <Ticket />
     </div>

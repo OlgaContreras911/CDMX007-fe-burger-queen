@@ -27,6 +27,7 @@ class Ticket extends Component {
             </li>
           </ul>
         ))}
+
         <div className="total">
           Total: $
           {comand.reduce((accumulate, current) => {
@@ -37,8 +38,7 @@ class Ticket extends Component {
           <button className="btn-deleteall" onClick={() => btnDeleteAll()}>
             <div className="deleteall">Cancelar Orden</div>
           </button>
-        </div>
-        <div className="btn-confirmA">
+
           <button className="btn-confirmall">
             <div className="confirmall">Confirmar Orden</div>
           </button>

@@ -15,8 +15,9 @@
 }
 
 .total {
-  margin-top: 90px;
-  margin-left: -277px;
+  position: fixed;
+  bottom: 149px;
+  margin-left: -81px;
 }
 
 .order-list {
@@ -36,10 +37,9 @@
 }
 .text-order {
   text-align: center;
-  margin-left: 75px;
-  width: 171px;
+  width: 162px;
   font-family: "Roboto", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -47,19 +47,20 @@
   letter-spacing: normal;
   text-align: left;
   margin-top: 3px;
+  margin-left: 37px;
 }
 .quantity-order {
   width: 33px;
   font-family: "Roboto", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 0.83;
   letter-spacing: normal;
   text-align: left;
-  margin-top: -23px;
-  margin-left: 34px;
+  margin-top: -22px;
+  margin-left: 20px;
 }
 .btn-deleteall {
   width: 147px;
@@ -68,6 +69,11 @@
   border: solid 2px #721a16;
   margin-left: -288px;
   margin-top: 43px;
+}
+.btn-deleteA {
+  bottom: 20px;
+  position: fixed;
+  margin-left: 175px;
 }
 .deleteall {
   width: 110px;
@@ -88,7 +94,7 @@
   height: 76px;
   border-radius: 24px;
   border: solid 2px #721a16;
-  margin-left: -288px;
+  margin-left: -301px;
   margin-top: 43px;
 }
 .confirmall {
@@ -107,15 +113,15 @@
 }
 .price-order {
   font-family: "Roboto", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 0.83;
   letter-spacing: normal;
   text-align: left;
-  margin-left: 246px;
-  margin-top: -19px;
+  margin-left: 186px;
+  margin-top: -13px;
 }
 
 .Complements {
@@ -143,13 +149,17 @@
   outline: none;
 }
 .btn-delete {
+  width: 46.6px;
+  height: 46.6px;
+  border-radius: 100px;
+  border: solid 2px;
   background-color: Transparent;
-  background-repeat: no-repeat;
-  border: none;
+  border-color: #fac105;
   cursor: pointer;
   overflow: hidden;
   outline: none;
-  margin-top: -2px;
+  margin-top: -21px;
+  margin-left: 256px;
 }
 .Burgers {
   display: grid;
