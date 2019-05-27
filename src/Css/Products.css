@@ -19,6 +19,19 @@
   bottom: 149px;
   margin-left: -81px;
 }
+.deleteall:hover {
+  background-color: #721a16;
+  color: #fac105;
+}
+.confirmall:hover {
+  color: #fac105;
+}
+.btn-confirmall:hover {
+  background-color: #721a16;
+}
+.btn-deleteall:hover {
+  background-color: #721a16;
+}
 
 .order-list {
   margin-left: -280px;
@@ -60,7 +73,7 @@
   letter-spacing: normal;
   text-align: left;
   margin-top: -22px;
-  margin-left: 20px;
+  margin-left: 16px;
 }
 .btn-deleteall {
   width: 147px;
@@ -69,6 +82,7 @@
   border: solid 2px #721a16;
   margin-left: -288px;
   margin-top: 43px;
+  box-shadow: none;
 }
 .btn-deleteA {
   bottom: 20px;
@@ -96,6 +110,7 @@
   border: solid 2px #721a16;
   margin-left: -301px;
   margin-top: 43px;
+  box-shadow: none;
 }
 .confirmall {
   width: 110px;
@@ -120,7 +135,7 @@
   line-height: 0.83;
   letter-spacing: normal;
   text-align: left;
-  margin-left: 186px;
+  margin-left: 190px;
   margin-top: -13px;
 }
 
@@ -221,7 +236,7 @@
   margin: 5px;
 }
 .text {
-  width: 69px;
+  width: 108px;
   height: 87px;
   font-family: "Roboto", sans-serif;
   font-size: 26px;

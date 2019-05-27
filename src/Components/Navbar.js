@@ -8,7 +8,7 @@ const Navbar = props => (
   <div className="nav">
     <div className="nav-menu">
       <ul className="menu-list">
-        <img className="log-burger" src={logburger} />
+        <img className="log-burger" src={logburger} alt="logburger" />
         {/* <li><NavLink className="nav-menu__link" exact to="/">Inicio</NavLink></li> */}
         <li>
           <NavLink className="nav-menu__link" to="/Breakfast">

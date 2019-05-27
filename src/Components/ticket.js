@@ -21,7 +21,7 @@ class Ticket extends Component {
                   className="btn-delete"
                   onClick={() => btnDelete(comand)}
                 >
-                  <img className="btn-image" src={minus} />
+                  <img className="btn-image" src={minus} alt="delete" />
                 </button>
               </div>
             </li>

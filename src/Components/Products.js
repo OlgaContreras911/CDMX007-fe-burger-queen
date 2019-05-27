@@ -13,7 +13,11 @@ class Products extends Component {
             .map(item => (
               <button className="btn-burger" onClick={() => btnOrder(item)}>
                 <div className="circle">
-                  <img className="burgerdoble" src={item.img} />
+                  <img
+                    className="burgerdoble"
+                    src={item.img}
+                    alt="itemburger"
+                  />
                 </div>
                 <div className="text">{item.name}</div>
                 <div className="price">${item.price}</div>
@@ -27,9 +31,13 @@ class Products extends Component {
           {items
             .filter(items => items.type.includes("breakfast"))
             .map(item => (
-              <button className="btn-burger" onClick={() => btnOrder(item)}>
+              <button
+                className="btn-burger"
+                key={item.id}
+                onClick={() => btnOrder(item)}
+              >
                 <div className="circle">
-                  <img className="burgerdoble" src={item.img} />
+                  <img className="burgerdoble" src={item.img} alt="breakfast" />
                 </div>
                 <div className="text">{item.name}</div>
                 <div className="price">${item.price}</div>
@@ -44,11 +52,12 @@ class Products extends Component {
             .filter(items => items.type.includes("drinks"))
             .map(item => (
               <button
+                key={item.id}
                 className="btn-complements"
                 onClick={() => btnOrder(item)}
               >
                 <div className="circle">
-                  <img className="burgerdoble" src={item.img} />
+                  <img className="burgerdoble" src={item.img} alt="drinks" />
                 </div>
                 <div className="text">{item.name}</div>
                 <div className="price">${item.price}</div>
@@ -63,11 +72,16 @@ class Products extends Component {
             .filter(items => items.type.includes("complements"))
             .map(item => (
               <button
+                key={item.id}
                 className="btn-complements"
                 onClick={() => btnOrder(item)}
               >
                 <div className="circle">
-                  <img className="burgerdoble" src={item.img} />
+                  <img
+                    className="burgerdoble"
+                    src={item.img}
+                    alt="complements"
+                  />
                 </div>
                 <div className="text">{item.name}</div>
                 <div className="price">${item.price}</div>
