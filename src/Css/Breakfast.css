@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.Burger-total{
+    width: 66.2%;
+    background-color: #eeece6;
+    display: inline-flex;
+    list-style: none;
+    font-weight: bold;
+    width: 66.3%;
+    border-right-style: solid;
+    border-right-width: 1px;
+    height:703px;
+    text-align: center;
+}
+
+.btn-break{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-family: 'Roboto', sans-serif;
+  border-radius:15px;
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  width: 238.6px;
+  height: 115px;
+  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 2px #707070;
+  background-color: #eeece6;
+}
+.circle{
+    margin-top: 31px;
+    width: 46.6px;
+    height: 46.6px;
+    border-radius: 100px;
+    border: solid 2px #fac105;
+}
+.burgerdoble{
+    
+    margin:5px;
+}
+.textBreak{
+    width: 155px;
+     height: 82px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.92;
+    letter-spacing: normal;
+    text-align: left;
+    margin-left: 51px;
+    margin-top: -49px;
+
+    
+}
+
+
+.price{
+    width: 41px;
+    height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.88;
+    letter-spacing: normal;
+    text-align: left;
+    margin-left: 180px;
+    margin-top: -34px;
+
+}
+.Burger-menubreak{
+    margin-left: -127px;
+
+
+}

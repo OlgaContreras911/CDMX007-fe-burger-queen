@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+.four {
+  grid-column: 2 / 2;
+  grid-row: 1;
+}
+.Ticket {
+  margin-left: 84.8%;
+  height: 703px;
+}
+
+.total {
+  position: fixed;
+  bottom: 149px;
+  margin-left: -81px;
+}
+.deleteall:hover {
+  background-color: #721a16;
+  color: #fac105;
+}
+.confirmall:hover {
+  color: #fac105;
+}
+.btn-confirmall:hover {
+  background-color: #721a16;
+}
+.btn-deleteall:hover {
+  background-color: #721a16;
+}
+
+.order-list {
+  margin-left: -280px;
+
+  list-style: none;
+}
+
+.btn-order {
+  width: 316px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 2px #707070;
+  background-color: #eeece6;
+  margin-left: -42px;
+  margin-top: 3px;
+}
+.text-order {
+  text-align: center;
+  width: 162px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 26px;
+  letter-spacing: normal;
+  text-align: left;
+  margin-top: 3px;
+  margin-left: 37px;
+}
+.quantity-order {
+  width: 33px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  margin-top: -22px;
+  margin-left: 16px;
+}
+.btn-deleteall {
+  width: 147px;
+  height: 76px;
+  border-radius: 24px;
+  border: solid 2px #721a16;
+  margin-left: -288px;
+  margin-top: 43px;
+  box-shadow: none;
+}
+.btn-deleteA {
+  bottom: 20px;
+  position: fixed;
+  margin-left: 175px;
+}
+.deleteall {
+  width: 110px;
+  height: 56px;
+  opacity: 0.96;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.85;
+  letter-spacing: normal;
+  text-align: center;
+  color: #721a16;
+}
+.btn-confirmall {
+  width: 147px;
+  height: 76px;
+  border-radius: 24px;
+  border: solid 2px #721a16;
+  margin-left: -301px;
+  margin-top: 43px;
+  box-shadow: none;
+}
+.confirmall {
+  width: 110px;
+  height: 56px;
+  opacity: 0.96;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.85;
+  letter-spacing: normal;
+  text-align: center;
+  color: #721a16;
+}
+.price-order {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 190px;
+  margin-top: -13px;
+}
+
+.Complements {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  grid-auto-rows: minmax(350px, auto);
+  width: 66.2%;
+  background-color: #eeece6;
+  display: inline-flex;
+  list-style: none;
+  font-weight: bold;
+  width: 66.3%;
+  border-right-style: solid;
+  border-right-width: 1px;
+  height: 703px;
+  text-align: center;
+}
+.btn-image {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+.btn-delete {
+  width: 46.6px;
+  height: 46.6px;
+  border-radius: 100px;
+  border: solid 2px;
+  background-color: Transparent;
+  border-color: #fac105;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  margin-top: -21px;
+  margin-left: 256px;
+}
+.Burgers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  grid-auto-rows: minmax(350px, auto);
+  width: 66.2%;
+  background-color: #eeece6;
+  display: inline-block;
+  list-style: none;
+  font-weight: bold;
+  width: 66.3%;
+  border-right-style: solid;
+  border-right-width: 1px;
+  height: 703px;
+  text-align: center;
+}
+
+.btn-complements {
+  margin-top: 288px;
+  margin-bottom: 16px;
+  margin-left: 53px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 15px;
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  width: 238.6px;
+  height: 115px;
+  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 2px #707070;
+  background-color: #eeece6;
+}
+
+.btn-burger {
+  margin: 12px;
+  display: inline;
+
+  border-radius: 15px;
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+
+  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 2px #707070;
+  background-color: #eeece6;
+}
+
+.circle {
+  margin-top: 31px;
+  width: 46.6px;
+  height: 46.6px;
+  border-radius: 100px;
+  border: solid 2px #fac105;
+}
+.burgerdoble {
+  margin: 5px;
+}
+.text {
+  width: 108px;
+  height: 87px;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.92;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 51px;
+  margin-top: -49px;
+}
+.price {
+  width: 41px;
+  height: 32px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.88;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 180px;
+  margin-top: -34px;
+}
+.Burger-menu2bur {
+  margin-left: -86px;
+}
